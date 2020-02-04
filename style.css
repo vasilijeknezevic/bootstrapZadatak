@@ -1,0 +1,601 @@
+
+@font-face{
+    src: url("fonts/Muli-Regular.ttf");
+    font-family: "Muli-Regular";
+}
+
+@font-face{
+    src: url("fonts/BebasNeue-Regular.ttf");
+    font-family: "BebasNeue-Regular";
+}
+@font-face{
+    src: url("fonts/static/PlayfairDisplay-Regular.ttf");
+    font-family: "Playfair-Display";
+}
+@font-face{
+    src: url("fonts/static/PlayfairDisplay-Bold.ttf");
+    font-family: "Playfair-DisplayBold";
+}
+@font-face{
+    src: url("fonts/Muli-ExtraBold.ttf");
+    font-family: "Muli-ExtraBold";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+  overflow-x: hidden; 
+}
+
+.main{
+   
+    background-image: url("img/Group\ 101.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 0.1% 5%;
+  
+}
+.navbar-nav li{
+    padding-top: 10px;
+    padding-right:35px;
+   
+}
+.nav-link{
+    font-size: 18px
+    !important;
+    font-family: 'Muli-Regular';
+    padding-bottom: 19px;
+
+  }
+.nav-link:hover{
+    padding-bottom: 17px;
+    border-bottom: 1px solid white;
+}
+
+  .navbar-expand-md .navbar-nav .nav-link{
+    padding-left: unset;
+    padding-right: unset;
+}
+  .start{
+      padding-top: 50px;
+      
+  }
+  .start h1{
+    font-family: PlayfairDisplay;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+    
+  }
+  .start p{
+    font-family: 'Muli-Regular';
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+    padding-top: 15px;
+  }
+  
+  .start h2{
+    font-family: PlayfairDisplay;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+    padding-top: 30px;
+  }
+  .start button{
+      width: 250px;
+  height: 70px;
+  border-radius: 38px;
+  border: solid 2px var(--white);
+  margin-top: 5px;
+  margin-bottom: 35%;
+  }
+
+  .plavi{
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: -30px;
+    height: 240px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 3px 18px 0 rgba(6, 170, 202, 1);
+    background-image: linear-gradient(100deg, #00859f 53%, #06aaca);
+    padding-top: 40px;
+
+    
+}
+
+.vijesti {
+  
+    font-weight: bold;
+    margin-bottom: -15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.38;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #2e3038;
+}
+
+.broj{
+    font-family: 'BebasNeue-Regular';
+    font-size: 120px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+   
+
+    
+  
+}
+.artikli{
+    left:65%;
+    position: absolute;
+    bottom: 77%;
+    font-size: 33px;
+    font-family: 'Playfair-Display';
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.02;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--white);
+  border-left: 1.2px solid white;
+}
+.drugi{
+    left: 10%;
+    top: 4%;
+  
+}
+
+
+.circle{
+    font-family: 'BebasNeue-Regular';
+    height: 170px;
+    width: 170px;
+    border: 4px solid white;
+    border-radius: 50%;
+    font-size: 110px;
+    font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.23;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--white);
+    padding-left: 39px;
+    padding-top: 75px;
+    
+}
+.osmijeh{
+    bottom: 150px;
+    left:165px;
+    font-size: 33px;
+    font-family: 'Playfair-Display';
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.02;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--white);
+}
+
+.about-container{
+    padding-top: 8%;
+}
+.show-left{
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.koSmo{
+    padding-top: 9%;
+    font-family: 'Playfair-DisplayBold';
+
+}
+.float-left{
+    margin-top: 4%;
+    width: 80%;
+    object-fit: contain;
+}
+.ipsum{
+    margin-top: 15px;
+    padding-left: 1px;
+    padding-right: 20px;
+    font-family: 'Muli-Regular';
+    font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8b92ab;
+}
+.ipsum2{
+    padding-top: 15px;
+    font-family: 'Muli-Regular';
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8b92ab;
+}
+.saznajVise{
+    font-size: 15px;
+
+}
+.arrow-r{
+    width: 16px;
+}
+.decoration{
+    position: absolute;
+    top: 85px;
+    left: 145px;
+    opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.04);
+  width: 68%;
+  height: 66%;
+  
+}
+
+.decoration2{
+    position: absolute;
+    margin-right: 20%;
+    top: 30px;
+    width: 75%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.04);
+    opacity: 0.9;
+
+}
+.krug{
+    position: relative;
+width:107%;
+top: 7%;
+left: 5%;
+}
+.elipsa{
+    background-color: #06aaca;
+    border-radius: 100%;
+    width: 430px;
+    height:430px;
+}
+
+.form-control{
+    margin-top: 25px;
+    border: none;
+    border-bottom: solid 1px #8b92ab;
+    opacity: 0.49;
+    border-radius: 0%;
+ 
+}
+.form-control :active{
+    border-bottom: solid 2px #06aaca;
+}
+.btn2{
+    margin-top: 45px;
+    font-family: 'Muli-Regular';
+    border-radius: 35px;
+    box-shadow: 0 3px 18px 0 rgba(6, 170, 202, 0.3);
+    background-color: #06aaca;
+    height: 40px;
+    width:120px;
+    border:none;
+}
+
+
+.container-fluid1{
+    width: 100%;
+    padding-right: 45px;
+    padding-left: 45px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.slider{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.slider .slick-prev{
+    position: absolute;
+    top: 50%;
+    left: -3rem;
+    transform: translateY(-50%);
+    z-index: 9;
+    background: none;
+    border: none;
+}
+
+.slider .slick-next{
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: -3rem;
+    z-index: 9;
+    background: none;
+    border: none;
+}
+
+.slider .slick-slide{
+    margin: 0 1rem;
+}
+
+.slider .slide-bx{
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 2rem;
+}
+
+.slider .slide-bx .left{
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 1;
+    height: 100%;
+}
+
+.slider .slide-bx .left img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider .slide-bx .right{
+    background: #fff;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    height: 15rem;
+}
+
+.slider .slide-bx .right .wrapp{
+    padding: 1rem;
+}
+.wrapp h3{
+    font-family: RobotoDisplay-Regular;
+    font-weight: bold;
+    font-size: 24px;
+}
+.wrapp p{
+    font-family: Roboto-Light;
+    font-size: 13px;
+}
+
+    .footer {
+        background: url("img/Pozadina.png") 49% center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 0 !important;
+        position: relative;
+        width: 100%;
+        top: 15%;
+        }
+        
+        .footer_left {
+        visibility: hidden;
+        transform: translateY(30%);
+        transition: all .4s ease;
+        }
+        
+        .footer_right {
+        visibility: hidden;
+        transform: translateX(30%);
+        transition: all .7s ease;
+        }
+        
+        .footer_container {
+        padding: 20px 0;
+        }
+        
+        .footer_text {
+        text-align: center;
+        color: #ffffff;
+        padding-bottom: 6px;
+        font-family: Roboto-Light;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        }
+        .djevojcica{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        }
+        .djecak img, .djevojcica img{
+        height: 350px;
+        }
+        .djecak{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        }
+        hr{
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.13);
+        }
+        .djevojcica img {
+        overflow: hidden !important
+        }
+        
+
+        @media only screen and (max-width: 800px)
+        {
+            body{
+                height: 100%;
+                width: 100%;
+                }
+                .main{
+                height: auto;
+                font-size: 15px;
+                }
+                .start h1{
+                font-size: 25px;
+                }
+                .start p{
+                font-size: 15px;
+                }
+                .start h4{
+                font-size: 18px;
+                }
+                .start button{
+                font-size: 18px;
+                width: 110px;
+                height: 50px;
+                }
+                .plavi{
+                width: 100%;
+                margin-left: 2px;
+                padding-right: unset;
+                }
+                
+                .broj{
+                position: absolute;
+                font-size: 50px;
+                font-size: 57px;
+                left: 20px;
+                bottom: 29px;
+                }
+                .artikli{
+                left: 0;
+                font-size: 18px;
+                top: 9px;
+                left: 7px;
+              
+                }
+               
+                .circle {
+                position: absolute;
+                width: 70px;
+                height: 70px;
+                font-size: 50px;
+                text-align: center;
+                padding-left: 5px;
+                padding-bottom: 31px;
+                padding-top: 34px;
+                }
+                .osmijeh{
+                left: 0;
+                font-size: 18px;
+                top: 86px;
+                left: 0px;
+                }
+                .koSmo{
+                padding-top: 10%;
+                font-size: 20px;
+                }
+                .float-left{
+                margin-top: 4%;
+                width: 60%;
+                object-fit: contain;
+                }
+                .lorem{
+                width: 100%;
+            
+                }
+               
+                .decoration, .decoration2{
+                display: none;
+                }
+                .krug{
+                position: relative;
+                width: 95%;
+                }
+                .elipsa{
+                    margin-top: 19%;
+                margin-bottom: 10%;
+                width: 280px;
+                height: 280px;
+                border-radius: 100%;
+                box-shadow: 0 3px 18px 0 rgba(6, 170, 202, 0.3);
+                background-color: #06aaca;
+                }
+                .slika-krug{
+                    margin-bottom: 10%;
+                }
+                
+                .slider .slide-bx .left{
+                width: 100%;
+                }
+                .slider .slide-bx .right{
+                width: 75%;
+                }
+                .slider .slide-bx .right .wrapp{
+                padding: 0.5rem;
+                height: 100%;
+                }
+                
+                .forma{
+                margin-top: 67%;
+                position: absolute;
+                width: 100px;
+                }
+                .form-control{
+                width: 250px;
+                }
+                .adresa{
+                right: 27px;
+                position: relative;
+                margin-top: 110%;
+                }
+                .mapa{
+                    padding-top: 10%;
+                height: 200px;
+                width: 150px;
+                }
+
+         .djevojcica img {
+            height: 150px;
+            }
+            
+            .djecak img {
+            height: 150px;
+            }
+            .ipsum2{
+            right: -98px;
+            top: 43px;
+            }
+            .fb{
+            text-align: end;
+            }
+            .ig{
+            text-align: start;
+            }
+        }
