@@ -44,11 +44,11 @@ html, body{
     font-size: 18px
     !important;
     font-family: 'Muli-Regular';
-    padding-bottom: 19px;
+    padding-bottom: 25px;
 
   }
 .nav-link:hover{
-    padding-bottom: 17px;
+    padding-bottom: 23px;
     border-bottom: 1px solid white;
 }
 
@@ -57,7 +57,7 @@ html, body{
     padding-right: unset;
 }
   .start{
-      padding-top: 50px;
+    padding-top: 61px;
       
   }
   .start h1{
@@ -81,7 +81,8 @@ html, body{
     letter-spacing: normal;
     text-align: left;
     color: var(--white);
-    padding-top: 15px;
+    padding-top: 34px;
+    width: 80%;
   }
   
   .start h2{
@@ -255,7 +256,10 @@ html, body{
     color: #8b92ab;
 }
 .saznajVise{
-    font-size: 15px;
+    font-size: 17px;
+    color: #06aaca;
+    padding-left: 0px;
+    font-family: 'Muli-ExtraBold'
 
 }
 .arrow-r{
@@ -275,8 +279,9 @@ html, body{
 .decoration2{
     position: absolute;
     margin-right: 20%;
+    margin-left: -8%;
     top: 30px;
-    width: 75%;
+    width: 90%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.04);
     opacity: 0.9;
@@ -287,6 +292,10 @@ html, body{
 width:107%;
 top: 7%;
 left: 5%;
+}
+.guraj{
+    padding-left: 61px;
+
 }
 .elipsa{
     background-color: #06aaca;
@@ -306,6 +315,11 @@ left: 5%;
 .form-control :active{
     border-bottom: solid 2px #06aaca;
 }
+.por{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .btn2{
     margin-top: 45px;
     margin-right: 241px;
@@ -438,7 +452,7 @@ left: 5%;
         text-align: center;
         color: #ffffff;
         padding-bottom: 6px;
-        font-family: Roboto-Light;
+        font-family: 'Muli-Regular';
         font-size: 15px;
         font-weight: normal;
         font-style: normal;
@@ -465,7 +479,13 @@ left: 5%;
         }
         .djevojcica img {
         overflow: hidden !important
-        }
+              }
+              .fb{
+                  text-align: end;
+              }
+              .ig{
+                  text-align: start;
+              }
         
 
         @media only screen and (max-width: 800px)
@@ -512,6 +532,9 @@ left: 5%;
                 left: 7px;
               
                 }
+                .mejl{
+                    margin-bottom: 28px;
+                }
                
                 .circle {
                 position: absolute;
@@ -541,6 +564,9 @@ left: 5%;
                 .lorem{
                 width: 100%;
             
+                }
+                .btn2{
+                    margin-left: 43px;
                 }
                
                 .decoration, .decoration2{
@@ -585,13 +611,13 @@ left: 5%;
                 .adresa{
                 right: 27px;
                 position: relative;
-                margin-top: 82%;
-                }
+                margin-top: 93%;                }
                 .mapa{
                     padding-top: 10%;
                 height: 200px;
                 width: 150px;
                 margin-bottom: 19%;
+                margin-left: -15%;
                 }
 
          .djevojcica img {
