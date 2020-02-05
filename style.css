@@ -85,7 +85,7 @@ html, body{
   }
   
   .start h2{
-    font-family: PlayfairDisplay;
+    font-family: 'PlayfairDisplay';
     font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
@@ -120,7 +120,7 @@ html, body{
 }
 
 .vijesti {
-  
+    font-family: 'Playfair-DisplayBold';
     font-weight: bold;
     margin-bottom: -15px;
     font-stretch: normal;
@@ -129,6 +129,9 @@ html, body{
     letter-spacing: -2px;
     text-align: left;
     color: #2e3038;
+}
+.prvi{
+    padding-top: 8%;
 }
 
 .broj{
@@ -141,15 +144,22 @@ html, body{
     letter-spacing: normal;
     text-align: left;
     color: var(--white);
-   
+   padding-top: 10px;
 
     
   
 }
+.wrap h3{
+    font-family: 'Playfair-DisplayBold';
+
+}
+.wrap p{
+    font-family: 'Roboto-Light';
+}
 .artikli{
-    left:65%;
+    left:60%;
     position: absolute;
-    bottom: 77%;
+    bottom: 55%;
     font-size: 33px;
     font-family: 'Playfair-Display';
   font-weight: bold;
@@ -284,7 +294,9 @@ left: 5%;
     width: 430px;
     height:430px;
 }
-
+.forma{
+    
+}
 .form-control{
     margin-top: 25px;
     border: none;
@@ -298,6 +310,8 @@ left: 5%;
 }
 .btn2{
     margin-top: 45px;
+    margin-right: 241px;
+
     font-family: 'Muli-Regular';
     border-radius: 35px;
     box-shadow: 0 3px 18px 0 rgba(6, 170, 202, 0.3);
@@ -491,12 +505,12 @@ left: 5%;
                 font-size: 50px;
                 font-size: 57px;
                 left: 20px;
-                bottom: 29px;
+                bottom: 5px;
                 }
                 .artikli{
                 left: 0;
                 font-size: 18px;
-                top: 9px;
+                top: 85px;
                 left: 7px;
               
                 }
@@ -563,7 +577,7 @@ left: 5%;
                 }
                 
                 .forma{
-                margin-top: 67%;
+                
                 position: absolute;
                 width: 100px;
                 }
@@ -573,12 +587,13 @@ left: 5%;
                 .adresa{
                 right: 27px;
                 position: relative;
-                margin-top: 110%;
+                margin-top: 82%;
                 }
                 .mapa{
                     padding-top: 10%;
                 height: 200px;
                 width: 150px;
+                margin-bottom: 19%;
                 }
 
          .djevojcica img {
